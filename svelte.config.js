@@ -13,9 +13,9 @@ const config = {
       trailingSlash: 'always',
       precompress: true,
     }),
-  },
-  paths: {
-    base: dev ? '' : '/SPA-build-not-adding-repo-name',
+    paths: {
+      base: dev ? '' : '/SPA-build-not-adding-repo-name',
+    },
   },
   preprocess: preprocess(),
 };
